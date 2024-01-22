@@ -58,7 +58,6 @@ img {
 
 /* header */
 
-
 .navigation {
     display: flex;
     align-items: center;
@@ -139,6 +138,49 @@ img {
 
 .menu-li-link.current::after {
     background: var(--OCEAN, #404BBF);
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-web-studio {
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+        transition: backdrop-filter 400ms ease-out, background-color 400ms ease-out;
+    }
+    .header-div-web-studio {
+        gap: 90px;
+    }
+    .menu {
+        gap: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .social-address {
+        display: none;
+    }
+    .navigation {
+        width: 100%;
+    }
 }
 
 /* address */
