@@ -46,7 +46,7 @@ img {
 }
 
 .container {
-    max-width: 320px;
+    width: 320px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
@@ -55,13 +55,13 @@ img {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        width: 768px;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1158px;
+        width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -424,7 +424,6 @@ img {
 @media only screen and (min-width: 768px) {
 
     .our-advantages-list {
-        width: 768px;
         column-gap: 72px;
         row-gap: 24px;
     }
@@ -444,7 +443,6 @@ img {
 
     .our-advantages-list {
         gap: 24px;
-        width: 1128px;
     }
 
     .our-advantages-list-li {
@@ -670,7 +668,7 @@ img {
 }
 
 .our-portfolio-list-li-img {
-    max-width: 100%;
+    width: 100%;
 }
 
 
