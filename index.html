@@ -24,6 +24,7 @@
           <a href="./index.html" class="logo-navy-iris"
             >Web<span class="logo-navy-blue">Studio</span></a
           >
+
           <button
             class="header-menu"
             type="button"
@@ -34,18 +35,20 @@
               <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
             </svg>
           </button>
+
           <ul class="menu list">
             <li class="menu-li">
               <a href="./index.html" class="menu-li-link current">Studio</a>
             </li>
             <li class="menu-li">
-              <a href="#portfolio" class="menu-li-link current">Portfolio</a>
+              <a href="#portfolio" class="menu-li-link">Portfolio</a>
             </li>
             <li class="menu-li">
-              <a href="#contacts" class="menu-li-link current">Contacts</a>
+              <a href="#contacts" class="menu-li-link">Contacts</a>
             </li>
           </ul>
         </nav>
+
         <address class="contacts">
           <ul class="social-address list">
             <li class="social-address-li">
@@ -76,6 +79,7 @@
       <section class="section-advantages section">
         <div class="section-div-advantages container">
           <h2 class="visually-hidden">Our advantages</h2>
+
           <ul class="our-advantages-list list">
             <li class="our-advantages-list-li">
               <div class="advantages-div-icons">
@@ -89,6 +93,7 @@
                 the perfect and creative solution.
               </p>
             </li>
+
             <li class="our-advantages-list-li">
               <div class="advantages-div-icons">
                 <svg class="advantages-icons" width="64" height="64">
@@ -101,6 +106,7 @@
                 within the shortest possible time.
               </p>
             </li>
+
             <li class="our-advantages-list-li">
               <div class="advantages-div-icons">
                 <svg class="advantages-icons" width="64" height="64">
@@ -113,6 +119,7 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
+
             <li class="our-advantages-list-li">
               <div class="advantages-div-icons">
                 <svg class="advantages-icons" width="64" height="64">
@@ -133,11 +140,36 @@
           <h2 class="our-team">Our Team</h2>
           <ul class="our-team-list list">
             <li class="our-team-list-li">
-              <img
-                src="./images/TeamCard1.jpg"
-                alt="Guerrero"
-                width="264"
-                class="our-team-list-li-img" />
+              <picture>
+                <!-- Desktop screen -->
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/team/team-1-1x.jpg 1x,
+                    ./images/desktop/team/team-1-2x.jpg 2x
+                  " />
+                <!-- Tablet screen -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/team/team-1-1x.jpg 1x,
+                    ./images/tablet/team/team-1-2x.jpg 2x
+                  " />
+                <!-- Mobile screen -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/team/team-1-1x.jpg 1x,
+                    ./images/mobile/team/team-1-2x.jpg 2x
+                  " />
+                <img
+                  class="bestsellers-ill"
+                  src=" ./images/mobile/team/team-1-1x.jpg"
+                  alt="Chocolate with nuts"
+                  width="264"
+                  height="260" />
+              </picture>
+
               <div class="our-div-team-list-li">
                 <h3 class="our-team-list-li-h">Mark Guerrero</h3>
                 <p class="our-team-list-li-p">Product Designer</p>
@@ -149,6 +181,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -156,6 +189,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -163,6 +197,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -173,12 +208,38 @@
                 </ul>
               </div>
             </li>
+
             <li class="our-team-list-li">
-              <img
-                src="./images/TeamCard2.jpg"
-                alt="Ford"
-                width="264"
-                class="our-team-list-li-img" />
+              <picture>
+                <!-- Desktop screen -->
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/team/team-2-1x.jpg 1x,
+                    ./images/desktop/team/team-2-2x.jpg 2x
+                  " />
+                <!-- Tablet screen -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/team/team-2-1x.jpg 1x,
+                    ./images/tablet/team/team-2-2x.jpg 2x
+                  " />
+                <!-- Mobile screen -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/team/team-2-1x.jpg 1x,
+                    ./images/mobile/team/team-2-2x.jpg 2x
+                  " />
+                <img
+                  class="bestsellers-ill"
+                  src=" ./images/mobile/team/team-2-1x.jpg"
+                  alt="Chocolate with nuts"
+                  width="264"
+                  height="260" />
+              </picture>
+
               <div class="our-div-team-list-li">
                 <h3 class="our-team-list-li-h">Tom Ford</h3>
                 <p class="our-team-list-li-p">Frontend Developer</p>
@@ -190,6 +251,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -197,6 +259,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -204,6 +267,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -214,12 +278,38 @@
                 </ul>
               </div>
             </li>
+
             <li class="our-team-list-li">
-              <img
-                src="./images/TeamCard3.jpg"
-                alt="Garcia"
-                width="264"
-                class="our-team-list-li-img" />
+              <picture>
+                <!-- Desktop screen -->
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/team/team-3-1x.jpg 1x,
+                    ./images/desktop/team/team-3-2x.jpg 2x
+                  " />
+                <!-- Tablet screen -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/team/team-3-1x.jpg 1x,
+                    ./images/tablet/team/team-3-2x.jpg 2x
+                  " />
+                <!-- Mobile screen -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/team/team-3-1x.jpg 1x,
+                    ./images/mobile/team/team-3-2x.jpg 2x
+                  " />
+                <img
+                  class="bestsellers-ill"
+                  src=" ./images/mobile/team/team-3-1x.jpg"
+                  alt="Chocolate with nuts"
+                  width="264"
+                  height="260" />
+              </picture>
+
               <div class="our-div-team-list-li">
                 <h3 class="our-team-list-li-h">Camila Garcia</h3>
                 <p class="our-team-list-li-p">Marketing</p>
@@ -231,6 +321,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -238,6 +329,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -245,6 +337,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -255,12 +348,38 @@
                 </ul>
               </div>
             </li>
+
             <li class="our-team-list-li">
-              <img
-                src="./images/TeamCard4.jpg"
-                alt="Wilson"
-                width="264"
-                class="our-team-list-li-img" />
+              <picture>
+                <!-- Desktop screen -->
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/team/team-4-1x.jpg 1x,
+                    ./images/desktop/team/team-4-2x.jpg 2x
+                  " />
+                <!-- Tablet screen -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/team/team-4-1x.jpg 1x,
+                    ./images/tablet/team/team-4-2x.jpg 2x
+                  " />
+                <!-- Mobile screen -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/mobile/team/team-4-1x.jpg 1x,
+                    ./images/mobile/team/team-4-2x.jpg 2x
+                  " />
+                <img
+                  class="bestsellers-ill"
+                  src=" ./images/mobile/team/team-4-1x.jpg"
+                  alt="Chocolate with nuts"
+                  width="264"
+                  height="260" />
+              </picture>
+
               <div class="our-div-team-list-li">
                 <h3 class="our-team-list-li-h">Daniel Wilson</h3>
                 <p class="our-team-list-li-p">UI Designer</p>
@@ -272,6 +391,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -279,6 +399,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -286,6 +407,7 @@
                       </svg>
                     </a>
                   </li>
+
                   <li class="our-team-icons-li">
                     <a href="#" class="icon_social link">
                       <svg class="social-icons" width="16" height="16">
@@ -305,11 +427,36 @@
           <ul class="our-portfolio-list list">
             <li class="our-portfolio-list-li">
               <div class="overlay-relative">
-                <img
-                  src="./images/portfolio1.jpg"
-                  alt="App"
-                  width="360"
-                  class="our-portfolio-list-li-img" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/desktop/portfolio/portfolio-1-1x.jpg 1x,
+                      ./images/desktop/portfolio/portfolio-1-2x.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/portfolio/portfolio-1-1x.jpg 1x,
+                      ./images/tablet/portfolio/portfolio-1-2x.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/portfolio/portfolio-1-1x.jpg 1x,
+                      ./images/mobile/portfolio/portfolio-1-2x.jpg 2x
+                    " />
+                  <img
+                    class="bestsellers-ill"
+                    src=" ./images/mobile/portfolio/portfolio-1-1x.jpg "
+                    alt="Chocolate with nuts"
+                    width="288"
+                    height="280" />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -321,13 +468,39 @@
                 <p class="our-portfolio-list-li-p">App</p>
               </div>
             </li>
+
             <li class="our-portfolio-list-li">
               <div class="overlay-relative">
-                <img
-                  src="./images/portfolio2.jpg"
-                  alt="Marketing"
-                  width="360"
-                  class="our-portfolio-list-li-img" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/desktop/portfolio/portfolio-2-1x.jpg 1x,
+                      ./images/desktop/portfolio/portfolio-2-2x.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/portfolio/portfolio-2-1x.jpg 1x,
+                      ./images/tablet/portfolio/portfolio-2-2x.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/portfolio/portfolio-2-1x.jpg 1x,
+                      ./images/mobile/portfolio/portfolio-2-2x.jpg 2x
+                    " />
+                  <img
+                    class="bestsellers-ill"
+                    src=" ./images/mobile/portfolio/portfolio-2-1x.jpg "
+                    alt="Chocolate with nuts"
+                    width="288"
+                    height="280" />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -339,13 +512,39 @@
                 <p class="our-portfolio-list-li-p">Marketing</p>
               </div>
             </li>
+
             <li class="our-portfolio-list-li">
               <div class="overlay-relative">
-                <img
-                  src="./images/portfolio3.jpg"
-                  alt="App"
-                  width="360"
-                  class="our-portfolio-list-li-img" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/desktop/portfolio/portfolio-3-1x.jpg 1x,
+                      ./images/desktop/portfolio/portfolio-3-2x.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/portfolio/portfolio-3-1x.jpg 1x,
+                      ./images/tablet/portfolio/portfolio-3-2x.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/portfolio/portfolio-3-1x.jpg 1x,
+                      ./images/mobile/portfolio/portfolio-3-2x.jpg 2x
+                    " />
+                  <img
+                    class="bestsellers-ill"
+                    src=" ./images/mobile/portfolio/portfolio-3-1x.jpg "
+                    alt="Chocolate with nuts"
+                    width="288"
+                    height="280" />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -357,13 +556,39 @@
                 <p class="our-portfolio-list-li-p">App</p>
               </div>
             </li>
+
             <li class="our-portfolio-list-li">
               <div class="overlay-relative">
-                <img
-                  src="./images/portfolio4.jpg"
-                  alt="Marketing"
-                  width="360"
-                  class="our-portfolio-list-li-img" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/desktop/portfolio/portfolio-4-1x.jpg 1x,
+                      ./images/desktop/portfolio/portfolio-4-2x.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/portfolio/portfolio-4-1x.jpg 1x,
+                      ./images/tablet/portfolio/portfolio-4-2x.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/portfolio/portfolio-4-1x.jpg 1x,
+                      ./images/mobile/portfolio/portfolio-4-2x.jpg 2x
+                    " />
+                  <img
+                    class="bestsellers-ill"
+                    src=" ./images/mobile/portfolio/portfolio-4-1x.jpg "
+                    alt="Chocolate with nuts"
+                    width="288"
+                    height="280" />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -375,13 +600,39 @@
                 <p class="our-portfolio-list-li-p">Marketing</p>
               </div>
             </li>
+
             <li class="our-portfolio-list-li">
               <div class="overlay-relative">
-                <img
-                  src="./images/portfolio5.jpg"
-                  alt="Design"
-                  width="360"
-                  class="our-portfolio-list-li-img" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/desktop/portfolio/portfolio-5-1x.jpg 1x,
+                      ./images/desktop/portfolio/portfolio-5-2x.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/portfolio/portfolio-5-1x.jpg 1x,
+                      ./images/tablet/portfolio/portfolio-5-2x.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/portfolio/portfolio-5-1x.jpg 1x,
+                      ./images/mobile/portfolio/portfolio-5-2x.jpg 2x
+                    " />
+                  <img
+                    class="bestsellers-ill"
+                    src=" ./images/mobile/portfolio/portfolio-5-1x.jpg "
+                    alt="Chocolate with nuts"
+                    width="288"
+                    height="280" />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -393,13 +644,39 @@
                 <p class="our-portfolio-list-li-p">Design</p>
               </div>
             </li>
+
             <li class="our-portfolio-list-li">
               <div class="overlay-relative">
-                <img
-                  src="./images/portfolio6.jpg"
-                  alt="Marketing"
-                  width="360"
-                  class="our-portfolio-list-li-img" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/desktop/portfolio/portfolio-6-1x.jpg 1x,
+                      ./images/desktop/portfolio/portfolio-6-2x.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/portfolio/portfolio-6-1x.jpg 1x,
+                      ./images/tablet/portfolio/portfolio-6-2x.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/mobile/portfolio/portfolio-6-1x.jpg 1x,
+                      ./images/mobile/portfolio/portfolio-6-2x.jpg 2x
+                    " />
+                  <img
+                    class="bestsellers-ill"
+                    src=" ./images/mobile/portfolio/portfolio-6-1x.jpg "
+                    alt="Chocolate with nuts"
+                    width="288"
+                    height="280" />
+                </picture>
+
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -426,6 +703,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
+
         <div class="footer-social-media">
           <p class="footer-social-media-p">Social media</p>
           <ul class="footer-ul list">
@@ -436,6 +714,7 @@
                 </svg>
               </a>
             </li>
+
             <li class="footer-icons-li">
               <a href="#" class="footer-icons link">
                 <svg class="social-icons" width="24" height="24">
@@ -443,6 +722,7 @@
                 </svg>
               </a>
             </li>
+
             <li class="footer-icons-li">
               <a href="#" class="footer-icons link">
                 <svg class="social-icons" width="24" height="24">
@@ -450,6 +730,7 @@
                 </svg>
               </a>
             </li>
+
             <li class="footer-icons-li">
               <a href="#" class="footer-icons link">
                 <svg class="social-icons" width="24" height="24">
@@ -459,6 +740,7 @@
             </li>
           </ul>
         </div>
+
         <div class="footer-subscribe">
           <p class="footer-subscribe-p">Subscribe</p>
           <form class="footer-subscribe-form">
@@ -469,6 +751,7 @@
                 type="email"
                 placeholder="E-mail" />
             </label>
+
             <button class="footer-subscribe-button" type="submit">
               Subscribe
               <svg class="footer-subscribe-button-icons" width="24" height="24">
