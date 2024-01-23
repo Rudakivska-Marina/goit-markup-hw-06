@@ -824,7 +824,8 @@ img {
 @media only screen and (min-width: 768px) {
 
 .footer-web-studio > .container {
-    width: 560px;
+    padding-left: 108px;
+    padding-right: 164px;
 }
 
     .footer-web {
@@ -839,7 +840,8 @@ img {
     }
 
         .footer-web-studio>.container {
-            width: 1100px;
+            padding-left: 0;
+                padding-right: 0;
         }
 }
 
