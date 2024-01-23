@@ -1145,7 +1145,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 640px;
+    height: 100%;
     padding: 72px 16px 40px;
     background: #ffffff;
     transition: opacity 300ms ease-in, visibility 300ms ease-in;
@@ -1194,7 +1194,7 @@ img {
     text-decoration: none;
 }
 
-.mobile-menu-link.current {
+.mobile-menu-link.color {
     color: var(--OCEAN, #404bbf);
 }
 
