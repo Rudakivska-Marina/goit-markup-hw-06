@@ -822,6 +822,11 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
+
+.footer-web-studio > .container {
+    width: 560px;
+}
+
     .footer-web {
         flex-direction: row;
         flex-wrap: wrap;
@@ -832,6 +837,10 @@ img {
     .footer-web {
         gap: 0;
     }
+
+        .footer-web-studio>.container {
+            width: 1100px;
+        }
 }
 
 @media only screen and (max-width: 767px) {
