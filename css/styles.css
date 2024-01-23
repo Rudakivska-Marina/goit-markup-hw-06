@@ -484,8 +484,7 @@ img {
 @media only screen and (min-width: 768px) {
 
     .our-advantages-list {
-        column-gap: 72px;
-        row-gap: 24px;
+        gap: 72px 24px;
     }
 
     .our-advantages-list-li {
