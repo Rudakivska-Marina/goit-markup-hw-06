@@ -68,8 +68,15 @@ img {
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+@media screen and (min-width: 1158px) {
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 }
 
 /* header */
@@ -547,8 +554,6 @@ img {
 
 .section-our-team {
     background-color: var(--CLOUD);
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .our-team {
@@ -838,10 +843,10 @@ img {
         gap: 0;
     }
 
-        .footer-web-studio>.container {
-            padding-left: 0;
-                padding-right: 0;
-        }
+    .footer-web-studio>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
